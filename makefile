@@ -2,7 +2,7 @@
 PDF  := book/book.pdf
 EPUB := book/book.epub
 
-.PHONY: clean init pdf epub
+.PHONY: clean pdf epub
 all: pdf epub
 epub: $(EPUB) 
 pdf: $(PDF)
